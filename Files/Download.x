@@ -29,9 +29,7 @@
 - (id)streamingData;
 @end
 
-@interface YTIStreamingData : NSObject
-- (NSArray *)adaptiveFormatsArray;
-@end
+#import <YouTubeHeader/YTIStreamingData.h>
 
 @interface YTIFormatStream (YouModDownload)
 - (NSString *)mimeType;
